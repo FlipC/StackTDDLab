@@ -18,9 +18,19 @@ public class TestStackTDD {
 	public void StackVacio(){
 		
 		boolean vacia = stackTDD.estaVacio();
-		assertEquals(vacia,(false));
+		assertEquals(vacia,(true));
 
 	}
+	
+	@Test
+	public void agregarNumeroTresAStack()throws ExcepcionStack{
+		
+		stackTDD.AgregarNumero(3);
+		boolean vacia= stackTDD.estaVacio();
+		assertEquals(vacia,(false));
+		
+	}
+
 
 
 }
