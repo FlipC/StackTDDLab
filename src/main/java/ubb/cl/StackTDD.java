@@ -14,6 +14,11 @@ public class StackTDD {
 		empty= false;
 	}
 
+	public int devuelveTamanio() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	
 	
 }
