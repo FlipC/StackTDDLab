@@ -62,6 +62,21 @@ public class TestStackTDD {
 		int pop = stackTDD.hacerPop();
 		assertEquals(pop,(7));
 	}
+	
+	@Test
+	public void agregarNumerosOchoYNueveHacerPopDosVecesDevuelveOchoYNueve() throws ExcepcionStack{
+		
+		stackTDD.AgregarNumero(8);
+		stackTDD.AgregarNumero(9);
+		
+		int popUno = stackTDD.hacerPop();
+		int popDos = stackTDD.hacerPop();
+		
+		assertEquals(popUno,(9));
+		assertEquals(popDos,(8));
+		
+		
+	}
 
 
 
