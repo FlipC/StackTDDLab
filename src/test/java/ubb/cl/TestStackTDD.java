@@ -30,6 +30,18 @@ public class TestStackTDD {
 		assertEquals(vacia,(false));
 		
 	}
+	
+	@Test
+	public void agregarNumeroUnoYDosAStack()throws ExcepcionStack{
+		
+		stackTDD.AgregarNumero(1);
+		stackTDD.AgregarNumero(2);
+		
+		boolean vacia = stackTDD.estaVacio();
+		
+		assertEquals(vacia,(false));
+	}
+
 
 
 
