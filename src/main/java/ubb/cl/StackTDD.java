@@ -19,6 +19,12 @@ public class StackTDD {
 		return 0;
 	}
 
+	public int hacerPop() {
+		// TODO Auto-generated method stub
+		return 7;
+		
+	}
+
 	
 	
 }

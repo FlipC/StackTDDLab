@@ -53,6 +53,16 @@ public class TestStackTDD {
 		
 		assertEquals(vacia,(false));
 	}
+	
+	@Test
+	public void agregarNumerosSeisYSieteHacePopDevuelveSiete()throws ExcepcionStack{
+		
+		stackTDD.AgregarNumero(6);
+		stackTDD.AgregarNumero(7);
+		int pop = stackTDD.hacerPop();
+		assertEquals(pop,(7));
+	}
+
 
 
 
